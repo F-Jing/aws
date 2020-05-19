@@ -75,14 +75,14 @@ body {
 }
 
 
-.expound-item-title {
+.expound-title {
   font-size: 26px;
   font-weight: 600;
   color: rgba(37, 34, 34, 1);
   line-height: 37px;
 }
 
-.expound-item-text {
+.expound-info {
   font-size: 18px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
@@ -100,7 +100,7 @@ body {
   padding-top: 10px;
 }
 
-.expound-item-link {
+.expound-link {
   width: 237px;
   height: 68px;
   background: rgba(254, 162, 32, 1);
@@ -109,7 +109,7 @@ body {
   cursor: pointer;
 }
 
-.expound-link {
+.expound-link-btn {
   font-size: 18px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
@@ -146,7 +146,7 @@ body {
   padding-top: 13px;
 }
 
-.course-note-link {
+.course-tag-link {
   display: inline-block;
   font-size: 13px;
   font-family: PingFangSC-Regular, PingFang SC;
@@ -184,8 +184,11 @@ body {
   margin-top: 20px;
   position: relative;
 }
-
-.course-new {
+.course-item-img{
+  width: 295px;
+  height: 170px;
+}
+.course-tag_new {
   width: 44px;
   height: 26px;
   background: rgba(15, 199, 0, 1);
@@ -201,13 +204,13 @@ body {
   top: 0px;
 }
 
-.course-rank {
+.course-tag_level {
   position: absolute;
   top: 0px;
   right: 10px;
 }
 
-.course-tag {
+.course-tag_claim {
   width: 68px;
   height: 26px;
   font-size: 12px;
@@ -223,11 +226,11 @@ body {
   top: 134px;
 }
 
-.course-tag:hover {
+.course-tag_claim:hover {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.course-tag-two {
+.course-tag_claim-two {
   left: 99px;
 }
 
@@ -247,7 +250,7 @@ body {
   }
 }
 
-.course-item-text {
+.course-item-title {
   width: 246px;
   font-size: 20px;
   font-weight: 600;
@@ -257,7 +260,7 @@ body {
   margin-left: 25px;
 }
 
-.course-item-subtext {
+.course-item-subtitle {
   width: 244px;
   font-size: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
@@ -268,7 +271,7 @@ body {
   margin-left: 25px;
 }
 
-.course-note-container {
+.course-item-info {
   margin-top: 12px;
   margin-left: 25px;
   display: flex;
@@ -287,7 +290,18 @@ body {
   background: linear-gradient(0deg, #999 0%, #999 20%, transparent 20%, transparent 40%, #999 40%, #999 60%, transparent 60%, transparent 80%, #999 80%, #999 100%);
   margin-right: 8px;
 }
-
+.have-icon::before{
+  content: "";
+  display: block;
+  float: left;
+  margin-right: 8px;
+  background: url(./../images/aws/time.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 20px;
+  background-size: 16px 16px;
+}
 .course-note {
   height: 20px;
   font-size: 14px;
@@ -332,7 +346,7 @@ body {
   padding-top: 10px;
 }
 
-.video-align-left {
+.video-section-left {
   display: inline-block;
   width: 640px;
   height: 360px;
@@ -350,7 +364,7 @@ body {
   cursor: pointer;
 }
 
-.video-align-right {
+.video-section-right {
   display: inline-block;
   width: 573px;
   margin-left: 40px;
@@ -403,7 +417,7 @@ body {
   width: 145px;
   height: 87px;
 }
-.contact-text {
+.contact-info {
   font-size: 18px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
@@ -444,13 +458,13 @@ body {
   height: 200px;
 }
 
-.invitation-item {
+.invitation-content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.invitation-text-container {
+.invitation-section-right {
   width: 990px;
   height: 73px;
   display: flex;
@@ -463,7 +477,7 @@ body {
   height: auto;
 }
 
-.invitation-text {
+.invitation-info {
   font-size: 26px;
   font-weight: 600;
   color: rgba(51, 51, 51, 1);
@@ -476,7 +490,7 @@ body {
   background-color: #979797;
 }
 
-.invitation-subtext {
+.invitation-sub-info {
   font-size: 13px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
