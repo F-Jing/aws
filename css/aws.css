@@ -82,7 +82,7 @@ body {
   line-height: 37px;
 }
 
-.expound-info {
+.expound-description {
   font-size: 18px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
@@ -156,7 +156,7 @@ body {
   border-bottom: 1px solid rgba(0, 159, 255, 1);
 }
 
-.course-line {
+.course-border {
   display: inline-block;
   font-size: 13px;
   font-family: PingFangSC-Regular, PingFang SC;
@@ -302,7 +302,7 @@ body {
   height: 20px;
   background-size: 16px 16px;
 }
-.course-note {
+.course-info-number {
   height: 20px;
   font-size: 14px;
   font-family: PingFangSC-Regular, PingFang SC;
@@ -417,7 +417,7 @@ body {
   width: 145px;
   height: 87px;
 }
-.contact-info {
+.contact-description {
   font-size: 18px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
@@ -477,20 +477,20 @@ body {
   height: auto;
 }
 
-.invitation-info {
+.invitation-description {
   font-size: 26px;
   font-weight: 600;
   color: rgba(51, 51, 51, 1);
   line-height: 37px;
 }
 
-.invitation-line {
+.invitation-border {
   width: 338px;
   height: 1px;
   background-color: #979797;
 }
 
-.invitation-sub-info {
+.invitation-sub-description {
   font-size: 13px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
